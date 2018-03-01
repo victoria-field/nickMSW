@@ -1,0 +1,28 @@
+{
+  "name": "nick",
+  "version": "1.0.0",
+  "description": "Academic showcase for MSW program",
+  "main": "index.js",
+  "scripts": {
+    "server": "live-server public/",
+    "build:prod": "webpack -p --env production",
+    "build:dev": "webpack",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoria-field/nickMSW.git"
+  },
+  "author": "Victoria Field",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoria-field/nickMSW/issues"
+  },
+  "homepage": "https://github.com/victoria-field/nickMSW#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "express": "^4.16.2"
+  }
+}

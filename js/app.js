@@ -13,7 +13,8 @@ $(document).ready(function() {
     var passcode = $('#passcode')
       .val()
       .trim();
-    var file = $('.file-path-wrapper').val();
+    var file = $('#file_link').val();
+    console.log(data);
     console.log(
       fileName + '--- ' + abstract + '+----- ' + passcode + '------' + file
     );

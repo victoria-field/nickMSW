@@ -1,0 +1,21 @@
+@import './materialize';
+
+// variables independent of _variables.scss
+$header-bg: url(../img/pattern1.png);
+$header-height: 300px;
+
+body {
+  background: $primary-color;
+}
+
+.main-header {
+  background: $header-bg;
+  color: $text-color1;
+  height: $header-height;
+  margin-bottom: 30px;
+
+  h1 {
+    margin: 0;
+    padding-top: 30px;
+  }
+}
